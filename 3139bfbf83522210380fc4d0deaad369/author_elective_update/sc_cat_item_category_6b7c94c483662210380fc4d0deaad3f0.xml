@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="試しアプリ">c3b9f3f783922210380fc4d0deaad338</sc_cat_item>
+        <sc_category display_value="サンプル">78cb0dd497322110e92ab027f053af57</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 05:31:27</sys_created_on>
+        <sys_id>6b7c94c483662210380fc4d0deaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>サンプル.試しアプリ</sys_name>
+        <sys_package display_value="trialApp" source="x_1053422_trialapp">3139bfbf83522210380fc4d0deaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="trialApp">3139bfbf83522210380fc4d0deaad369</sys_scope>
+        <sys_update_name>sc_cat_item_category_6b7c94c483662210380fc4d0deaad3f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 05:31:27</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="trialApp">3139bfbf83522210380fc4d0deaad369</application>
+        <file_path/>
+        <instance_id>84aa37b9db3ab950b1eb9027c596198d</instance_id>
+        <instance_name>dev229304</instance_name>
+        <name>sc_cat_item_category_6b7c94c483662210380fc4d0deaad3f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="試しアプリ">c3b9f3f783922210380fc4d0deaad338</sc_cat_item><sc_category display_value="サンプル">78cb0dd497322110e92ab027f053af57</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-30 05:31:27</sys_created_on><sys_id>6b7c94c483662210380fc4d0deaad3f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>サンプル.試しアプリ</sys_name><sys_package display_value="trialApp" source="x_1053422_trialapp">3139bfbf83522210380fc4d0deaad369</sys_package><sys_policy/><sys_scope display_value="trialApp">3139bfbf83522210380fc4d0deaad369</sys_scope><sys_update_name>sc_cat_item_category_6b7c94c483662210380fc4d0deaad3f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-30 05:31:27</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1266153277</payload_hash>
+        <record_name>サンプル.試しアプリ</record_name>
+        <reverted_from/>
+        <source>fd39bfbf83522210380fc4d0deaad36d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 05:31:27</sys_created_on>
+        <sys_id>ab7c94c483662210380fc4d0deaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197bf51a0bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 05:31:27</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>af7c94c41e6622109b229646e5d3def3</update_guid>
+        <update_guid_history>af7c94c41e6622109b229646e5d3def3:-1266153277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="サンプル.試しアプリ">8a0fa04083e62210380fc4d0deaad302</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:52:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0c8323a9e551480089126de598900000</sys_id>
+        <sys_metadata>6b7c94c483662210380fc4d0deaad3f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>サンプル.試しアプリ</sys_name>
+        <sys_package display_value="trialApp" source="x_1053422_trialapp">3139bfbf83522210380fc4d0deaad369</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="trialApp">3139bfbf83522210380fc4d0deaad369</sys_scope>
+        <sys_scope_delete display_value="">0fc503d5f69245b4840b282d1c1c1381</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_6b7c94c483662210380fc4d0deaad3f0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_6b7c94c483662210380fc4d0deaad3f0">ab7c94c483662210380fc4d0deaad3f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:52:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

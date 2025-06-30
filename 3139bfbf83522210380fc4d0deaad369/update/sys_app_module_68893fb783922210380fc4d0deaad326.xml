@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="trialApp">ac89b33383922210380fc4d0deaad3de</application>
+        <application display_value="試しアプリ">ac89b33383922210380fc4d0deaad3de</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="sc_req_item">cat_item=a8ee280083e62210380fc4d0deaad350^EQ<item display_table="sc_cat_item" display_value="試しアプリ" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="false" value="a8ee280083e62210380fc4d0deaad350"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
@@ -12,7 +14,7 @@
         <map_page/>
         <mobile_title>All</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>sc_cat_item</name>
+        <name>sc_req_item</name>
         <order>3</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -25,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>68893fb783922210380fc4d0deaad326</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>All</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>sc_req_item</sys_name>
         <sys_overrides/>
         <sys_package display_value="trialApp" source="x_1053422_trialapp">3139bfbf83522210380fc4d0deaad369</sys_package>
         <sys_policy/>
         <sys_scope display_value="trialApp">3139bfbf83522210380fc4d0deaad369</sys_scope>
         <sys_update_name>sys_app_module_68893fb783922210380fc4d0deaad326</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-30 02:58:36</sys_updated_on>
+        <sys_updated_on>2025-06-30 07:26:12</sys_updated_on>
         <timeline_page/>
         <title>All</title>
         <uncancelable>false</uncancelable>

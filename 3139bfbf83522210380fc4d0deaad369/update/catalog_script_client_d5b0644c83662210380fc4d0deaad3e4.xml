@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="試しアプリ">c3b9f3f783922210380fc4d0deaad338</cat_item>
+        <cat_item display_value="試しアプリ">a8ee280083e62210380fc4d0deaad350</cat_item>
         <cat_variable/>
         <condition/>
         <description/>
@@ -41,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d5b0644c83662210380fc4d0deaad3e4</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>初期値設定</sys_name>
         <sys_overrides/>
         <sys_package display_value="trialApp" source="x_1053422_trialapp">3139bfbf83522210380fc4d0deaad369</sys_package>
@@ -49,7 +49,7 @@
         <sys_scope display_value="trialApp">3139bfbf83522210380fc4d0deaad369</sys_scope>
         <sys_update_name>catalog_script_client_d5b0644c83662210380fc4d0deaad3e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-30 06:37:14</sys_updated_on>
+        <sys_updated_on>2025-06-30 07:03:09</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

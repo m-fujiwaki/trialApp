@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="試しアプリ">c3b9f3f783922210380fc4d0deaad338</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 03:01:43</sys_created_on>
+        <sys_id>163a7bf783922210380fc4d0deaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.試しアプリ</sys_name>
+        <sys_package display_value="trialApp" source="x_1053422_trialapp">3139bfbf83522210380fc4d0deaad369</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="trialApp">3139bfbf83522210380fc4d0deaad369</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_163a7bf783922210380fc4d0deaad3c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 03:01:43</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="trialApp">3139bfbf83522210380fc4d0deaad369</application>
+        <file_path/>
+        <instance_id>84aa37b9db3ab950b1eb9027c596198d</instance_id>
+        <instance_name>dev229304</instance_name>
+        <name>sc_cat_item_catalog_163a7bf783922210380fc4d0deaad3c2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="試しアプリ">c3b9f3f783922210380fc4d0deaad338</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-30 03:01:43</sys_created_on><sys_id>163a7bf783922210380fc4d0deaad3c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.試しアプリ</sys_name><sys_package display_value="trialApp" source="x_1053422_trialapp">3139bfbf83522210380fc4d0deaad369</sys_package><sys_policy/><sys_scope display_value="trialApp">3139bfbf83522210380fc4d0deaad369</sys_scope><sys_update_name>sc_cat_item_catalog_163a7bf783922210380fc4d0deaad3c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-30 03:01:43</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>2065826591</payload_hash>
+        <record_name>Service Catalog.試しアプリ</record_name>
+        <reverted_from/>
+        <source>fd39bfbf83522210380fc4d0deaad36d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 03:01:44</sys_created_on>
+        <sys_id>623a7bf783922210380fc4d0deaad3c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197bec88e720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 03:01:44</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>663a7bf710922210ad6bef78492b53c5</update_guid>
+        <update_guid_history>663a7bf710922210ad6bef78492b53c5:2065826591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.試しアプリ">c60fec0083e62210380fc4d0deaad396</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:52:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>8c18be9c6d2445a4901979c17edf5cd1</sys_id>
+        <sys_metadata>163a7bf783922210380fc4d0deaad3c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.試しアプリ</sys_name>
+        <sys_package display_value="trialApp" source="x_1053422_trialapp">3139bfbf83522210380fc4d0deaad369</sys_package>
+        <sys_parent display_value="">c3b9f3f783922210380fc4d0deaad338</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="trialApp">3139bfbf83522210380fc4d0deaad369</sys_scope>
+        <sys_scope_delete display_value="">0fc503d5f69245b4840b282d1c1c1381</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_163a7bf783922210380fc4d0deaad3c2</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_163a7bf783922210380fc4d0deaad3c2">623a7bf783922210380fc4d0deaad3c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:52:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
