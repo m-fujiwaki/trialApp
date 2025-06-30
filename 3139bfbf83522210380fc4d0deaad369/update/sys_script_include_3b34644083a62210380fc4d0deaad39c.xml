@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1053422_trialapp.get_userInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>get_userInfo</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var get_userInfo = Class.create();
+get_userInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getApplicantUserInfo: function() {
+        var currentUser = this.getParameter("user_id");
+        var gr = new GlideRecord('sys_user');
+        gr.addQuery('sys_id', currentUser);
+        gr.query();
+
+        if (gr.next()) {
+            return JSON.stringify({
+                'mail': gr.getValue('email')
+            });
+        }
+		return JSON.stringify({'mail': ''});
+    },
+    type: 'get_userInfo'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:08:29</sys_created_on>
+        <sys_id>3b34644083a62210380fc4d0deaad39c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>get_userInfo</sys_name>
+        <sys_package display_value="trialApp" source="x_1053422_trialapp">3139bfbf83522210380fc4d0deaad369</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="trialApp">3139bfbf83522210380fc4d0deaad369</sys_scope>
+        <sys_update_name>sys_script_include_3b34644083a62210380fc4d0deaad39c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:36:30</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>3b34644083a62210380fc4d0deaad39c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:08:28</sys_created_on>
+        <sys_id>0af4288c83662210380fc4d0deaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:08:28</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
