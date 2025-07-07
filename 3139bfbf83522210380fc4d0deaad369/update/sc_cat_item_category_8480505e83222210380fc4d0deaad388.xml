@@ -4,15 +4,15 @@
         <sc_category display_value="サンプル">78cb0dd497322110e92ab027f053af57</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-30 06:51:48</sys_created_on>
-        <sys_id>b8ee2c0083e62210380fc4d0deaad3de</sys_id>
+        <sys_created_on>2025-07-07 04:25:23</sys_created_on>
+        <sys_id>8480505e83222210380fc4d0deaad388</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>サンプル.試しアプリ</sys_name>
         <sys_package display_value="trialApp" source="x_1053422_trialapp">3139bfbf83522210380fc4d0deaad369</sys_package>
         <sys_policy/>
         <sys_scope display_value="trialApp">3139bfbf83522210380fc4d0deaad369</sys_scope>
-        <sys_update_name>sc_cat_item_category_b8ee2c0083e62210380fc4d0deaad3de</sys_update_name>
+        <sys_update_name>sc_cat_item_category_8480505e83222210380fc4d0deaad388</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-30 06:51:48</sys_updated_on>
+        <sys_updated_on>2025-07-07 04:25:23</sys_updated_on>
     </sc_cat_item_category>
 </record_update>
